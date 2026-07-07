@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10b981"></stop>
+      <stop offset="100%" stop-color="#047857"></stop>
+    </linearGradient>
+  </defs>
+
+  <rect width="64" height="64" rx="16" fill="url(#bg)"></rect>
+
+  <!-- Cruz -->
+  <path d="M28 14
+       h8
+       v14
+       h14
+       v8
+       h-14
+       v14
+       h-8
+       v-14
+       h-14
+       v-8
+       h14z" fill="white"></path>
+
+  <!-- Cápsula -->
+  <g transform="translate(41 41) rotate(-35)">
+    <rect x="-10" y="-4" width="20" height="8" rx="4" fill="#ffffff"></rect>
+    <path d="M0-4h10a4 4 0 010 8H0z" fill="#bbf7d0"></path>
+    <line x1="0" y1="-4" x2="0" y2="4" stroke="#047857" stroke-width="1.2"></line>
+  </g>
+</svg>

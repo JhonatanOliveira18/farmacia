@@ -6,7 +6,7 @@ function Home() {
           <h2 className="text-5xl font-bold">Farmácia</h2>
 
           <p className="text-xl text-emerald-900">
-            Encontre os melhores produtos organizados por categoria.
+            Sua saúde é nossa prioridade!
           </p>
         </div>
 
